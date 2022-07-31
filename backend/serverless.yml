@@ -1,7 +1,7 @@
 # TODO: Change the name of the org 
 org: adeoluwadavid
-app: serverless-todoapp96
-service: serverless-todoapp96
+app: serverless-todoapp97
+service: serverless-todoapp97
 
 plugins:
   - serverless-webpack
@@ -24,9 +24,9 @@ provider:
   # Use these variables in the functions and resouorces section below. For example, 
   # ${self:provider.environment.ATTACHMENT_S3_BUCKET}
   environment:
-    PROJECT_NAME: my-serverlessapp96-serveless
-    TODOS_TABLE: my-serverlessapp96-${self:provider.stage}
-    S3_BUCKET_NAME: my-serverlessapp96-${self:provider.stage}
+    PROJECT_NAME: my-serverlessapp97-serveless
+    TODOS_TABLE: my-serverlessapp97-${self:provider.stage}
+    S3_BUCKET_NAME: my-serverlessapp97-${self:provider.stage}
 
 
 custom:
